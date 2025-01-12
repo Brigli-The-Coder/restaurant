@@ -16,9 +16,10 @@ body{
 }
 p{
     position: absolute;
-    bottom: 50;
+    bottom: 0;
     margin: 0 auto;
     color: white;
+    font-weight: 700;
 }
 h1{
     text-align: center;
