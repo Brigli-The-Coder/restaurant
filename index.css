@@ -16,7 +16,7 @@ body{
 }
 p{
     position: absolute;
-    bottom: 0;
+    bottom: 20;
     margin: 0 auto;
     color: white;
 }
