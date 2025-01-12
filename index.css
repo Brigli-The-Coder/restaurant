@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90vw;
+    height: 100vh;
+    margin: 0 auto;
+    background: url(./chicken-gardenblue-with-vegetables-plate.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    width: fit-content;
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.card:hover{
+    background-color: aquamarine;
+    color: black;
+    transition: .3s;
+}
